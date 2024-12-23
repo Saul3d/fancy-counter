@@ -26,9 +26,9 @@ jobs:
       - name: Run Jest Tests
         run: npm test
 
-      - name: Upload Jest Coverage Report (optional)
-        if: success()
-        uses: actions/upload-artifact@v2
-        with:
-          name: jest-coverage-report
-          path: coverage/
+      # - name: Upload Jest Coverage Report (optional)
+      #   if: success()
+      #   uses: actions/upload-artifact@v2
+      #   with:
+      #     name: jest-coverage-report
+      #     path: coverage/
