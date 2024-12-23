@@ -1,6 +1,6 @@
 import React from "react";
 import Title from "./Title";
-import Counter from "./Counter";
+import Counter from "./Counter/Counter";
 import ResetButton from "./ResetButton";
 import CountButtons from "./CountButtons";
 
@@ -8,7 +8,7 @@ const Card = () => {
   return (
     <>
       <Title />
-      <Counter />
+      <Counter num1={1} num2={2} />
       <ResetButton />
       <CountButtons />
     </>
