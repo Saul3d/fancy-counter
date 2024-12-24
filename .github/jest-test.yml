@@ -2,14 +2,12 @@ name: Run Jest Tests
 
 on:
   pull_request:
+  push:
     branches: [main]
 
 jobs:
   test:
-    strategy:
-      matrix:
-        os: [ubuntu-latest, windows-latest, macos-latest]
-    runs-on: ${{ matrix.os }}
+     runs-on: ubuntu-latest
 
     steps:
       - name: Check out code
