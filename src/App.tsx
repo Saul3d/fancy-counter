@@ -1,5 +1,5 @@
 import Card from "./Components/Card";
-import Sum from "./Components/sum";
+import Sum from "./Components/Sum";
 
 function App() {
   return (
