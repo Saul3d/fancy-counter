@@ -8,7 +8,7 @@ const Card = () => {
   return (
     <>
       <Title />
-      <Counter num1={1} num2={2} />
+      <Counter />
       <ResetButton />
       <CountButtons />
     </>
