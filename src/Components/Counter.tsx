@@ -1,7 +1,7 @@
 export default function Counter() {
   return (
     <>
-      <p>0</p>
+      <p className="count">0</p>
     </>
   );
 }
