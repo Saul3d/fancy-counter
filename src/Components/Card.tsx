@@ -6,12 +6,12 @@ import CountButtons from "./CountButtons";
 
 const Card = () => {
   return (
-    <>
+    <div className="card">
       <Title />
       <Counter />
       <ResetButton />
       <CountButtons />
-    </>
+    </div>
   );
 };
 
